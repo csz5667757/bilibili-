@@ -1,0 +1,50 @@
+.my_title{
+  display: flex; /*伸缩盒子*/
+  align-items: center; /* 垂直居中 */
+  padding: 10rpx; 
+  background-color: #fff
+}
+
+.logo{
+  flex: 7
+}
+.logo_image {
+  width: 140rpx;
+  height: 60rpx;
+}
+
+.search_icon{
+  flex: 1;
+  display: flex;
+  justify-content: center;/*水平居中*/
+  align-content: center;/*垂直居中*/
+}
+
+.search-image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.user_icon{
+  flex: 2;
+  display: flex;
+  justify-content: center;/*水平居中*/
+  align-content: center;/*垂直居中*/
+}
+
+.user-image {
+  width: 54rpx;
+  height: 60rpx;
+}
+
+.down_app{
+  flex: 3;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;/*水平居中*/
+  align-content: center;/*垂直居中*/
+  background-color:rgb(0, 153, 255);
+  color: #fff;
+  border-radius: 10rpx;/*圆角边框*/
+  padding: 10rpx;
+}
